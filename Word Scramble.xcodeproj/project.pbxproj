@@ -15,6 +15,7 @@
 		697A72DC2B083EC700E5AB23 /* Word_ScrambleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697A72DB2B083EC700E5AB23 /* Word_ScrambleUITests.swift */; };
 		697A72DE2B083EC700E5AB23 /* Word_ScrambleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697A72DD2B083EC700E5AB23 /* Word_ScrambleUITestsLaunchTests.swift */; };
 		697A72EB2B0841DB00E5AB23 /* PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697A72EA2B0841DB00E5AB23 /* PracticeView.swift */; };
+		697A72ED2B084C3F00E5AB23 /* URLPracitceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697A72EC2B084C3F00E5AB23 /* URLPracitceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		697A72DB2B083EC700E5AB23 /* Word_ScrambleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word_ScrambleUITests.swift; sourceTree = "<group>"; };
 		697A72DD2B083EC700E5AB23 /* Word_ScrambleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word_ScrambleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		697A72EA2B0841DB00E5AB23 /* PracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeView.swift; sourceTree = "<group>"; };
+		697A72EC2B084C3F00E5AB23 /* URLPracitceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLPracitceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 		697A72B42B083EC600E5AB23 = {
 			isa = PBXGroup;
 			children = (
+				697A72EC2B084C3F00E5AB23 /* URLPracitceView.swift */,
 				697A72BF2B083EC600E5AB23 /* Word Scramble */,
 				697A72D02B083EC700E5AB23 /* Word ScrambleTests */,
 				697A72DA2B083EC700E5AB23 /* Word ScrambleUITests */,
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				697A72C32B083EC600E5AB23 /* ContentView.swift in Sources */,
+				697A72ED2B084C3F00E5AB23 /* URLPracitceView.swift in Sources */,
 				697A72EB2B0841DB00E5AB23 /* PracticeView.swift in Sources */,
 				697A72C12B083EC600E5AB23 /* Word_ScrambleApp.swift in Sources */,
 			);
