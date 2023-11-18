@@ -19,9 +19,14 @@ struct StringMethodsPracticeView: View {
     let word = "swift"
     let checker = UITextChecker()
  
+    let people = ["Kam", "Krissie", "Chris", "Cam", "Cheetah"]
     
     var body: some View {
         VStack{
+            List(people, id: \.self) {
+                Text("im in the club f*cked up, I got \($0) with me. - Webbie")
+            }
+            
             let letters = input.components(separatedBy: " ")
             let letters2 = input2.components(separatedBy: "\n")
             
