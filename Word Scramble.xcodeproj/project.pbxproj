@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		694AA1612B084E47000B584F /* StringMethodsPracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694AA1602B084E47000B584F /* StringMethodsPracticeView.swift */; };
 		697A72C12B083EC600E5AB23 /* Word_ScrambleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697A72C02B083EC600E5AB23 /* Word_ScrambleApp.swift */; };
 		697A72C32B083EC600E5AB23 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697A72C22B083EC600E5AB23 /* ContentView.swift */; };
 		697A72C52B083EC700E5AB23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 697A72C42B083EC700E5AB23 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		694AA1602B084E47000B584F /* StringMethodsPracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringMethodsPracticeView.swift; sourceTree = "<group>"; };
 		697A72BD2B083EC600E5AB23 /* Word Scramble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Word Scramble.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		697A72C02B083EC600E5AB23 /* Word_ScrambleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word_ScrambleApp.swift; sourceTree = "<group>"; };
 		697A72C22B083EC600E5AB23 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -78,7 +80,6 @@
 		697A72B42B083EC600E5AB23 = {
 			isa = PBXGroup;
 			children = (
-				697A72EC2B084C3F00E5AB23 /* URLPracitceView.swift */,
 				697A72BF2B083EC600E5AB23 /* Word Scramble */,
 				697A72D02B083EC700E5AB23 /* Word ScrambleTests */,
 				697A72DA2B083EC700E5AB23 /* Word ScrambleUITests */,
@@ -99,6 +100,8 @@
 		697A72BF2B083EC600E5AB23 /* Word Scramble */ = {
 			isa = PBXGroup;
 			children = (
+				697A72EC2B084C3F00E5AB23 /* URLPracitceView.swift */,
+				694AA1602B084E47000B584F /* StringMethodsPracticeView.swift */,
 				697A72C02B083EC600E5AB23 /* Word_ScrambleApp.swift */,
 				697A72C22B083EC600E5AB23 /* ContentView.swift */,
 				697A72EA2B0841DB00E5AB23 /* PracticeView.swift */,
@@ -264,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				697A72C32B083EC600E5AB23 /* ContentView.swift in Sources */,
+				694AA1612B084E47000B584F /* StringMethodsPracticeView.swift in Sources */,
 				697A72ED2B084C3F00E5AB23 /* URLPracitceView.swift in Sources */,
 				697A72EB2B0841DB00E5AB23 /* PracticeView.swift in Sources */,
 				697A72C12B083EC600E5AB23 /* Word_ScrambleApp.swift in Sources */,

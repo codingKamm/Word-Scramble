@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     
     let people = ["Kam", "Krissie", "Chris", "Cam", "Cheetah"]
-
+    
     var body: some View {
         VStack{
             List(people, id: \.self) {
